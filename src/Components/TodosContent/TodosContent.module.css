@@ -1,0 +1,28 @@
+.header {
+  margin-top: 3.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .todosInfo > strong {
+  margin-right: 0.5rem;
+  color: var(--blue-200);
+}
+
+.header .todosInfo > span {
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-weight: 700;
+  color: var(--gray-200);
+}
+
+.todosList {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.75rem;
+
+  margin-top: 1.5rem;
+}

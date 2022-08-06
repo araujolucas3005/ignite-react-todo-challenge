@@ -1,0 +1,37 @@
+.todo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid var(--gray-400);
+}
+
+.todo .todoContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: var(--gray-100);
+
+  gap: 0.75rem;
+}
+
+.todo .todoContent .todoTextDone {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.todo > svg {
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.todo > svg:hover {
+  color: var(--red-200);
+  background: var(--gray-400);
+  border-radius: 4px;
+}

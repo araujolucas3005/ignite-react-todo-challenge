@@ -1,0 +1,32 @@
+.checkbox {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  border: 2px solid var(--blue-200);
+
+  transition: border 0.2s;
+}
+
+.checkbox:hover {
+  border: 2px solid var(--blue-500);
+}
+
+.checkboxActive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: none;
+
+  padding: 0.25rem;
+
+  background: var(--purple-500);
+
+  transition: background-color 0.2s;
+}
+
+.checkboxActive:hover {
+  background: var(--purple-100);
+}
